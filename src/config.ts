@@ -53,19 +53,23 @@ export const siteConfig = {
   ],
 
   // Use this section to highlight certifications or leadership instead of software jobs
-certifications: [
+  experience: [
   {
-    name: "CompTIA Security+ (SY0-701)",
-    issuer: "CompTIA",
-    date: "June 2025",
-    description: "Validates core cybersecurity skills, including risk management, threat analysis, network/system security, and incident response."
+    company: "CompTIA",
+    title: "CompTIA Security+ (SY0-701)",
+    dateRange: "June 2025",
+    bullets: [
+      "Validates core cybersecurity skills: risk management, threat analysis, network/system security, and incident response."
+    ],
   },
   {
-    name: "Lean Six Sigma Yellow Belt",
-    issuer: "Texas A&M University",
-    date: "December 2024",
-    description: "Earned Yellow Belt certification through coursework in Lean Six Sigma and Statistics, demonstrating process improvement and analytical problem-solving skills."
-  }
+    company: "Texas A&M University",
+    title: "Lean Six Sigma — Yellow Belt",
+    dateRange: "December 2024",
+    bullets: [
+      "Process improvement and statistics coursework; applied problem-solving and efficiency methods."
+    ],
+  },
 ],
 
   education: [
