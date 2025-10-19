@@ -10,7 +10,7 @@ export const siteConfig = {
     email: "jladron7274@tamu.edu",
     linkedin: "https://www.linkedin.com/in/jorgeldg7274/",
     twitter: "",
-    github: "https://github.com/yourGitHubUsername"
+    github: "https://github.com/Jladron7274"
   },
 
   aboutMe:
