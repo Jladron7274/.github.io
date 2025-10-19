@@ -53,33 +53,28 @@ export const siteConfig = {
   ],
 
   // Use this section to highlight certifications or leadership instead of software jobs
-  experience: [
-    {
-      company: "Certifications",
-      title: "CompTIA Security+ (SY0-701)",
-      dateRange: "June 2025",
-      bullets: [
-        "Validated skills in risk management, threat analysis, network/system security, and incident response."
-      ]
-    },
-    {
-      company: "Professional Organizations",
-      title: "TAMU Cybersecurity Club — Active Member",
-      dateRange: "Jan 2025 – Present",
-      bullets: [
-        "Participating in Cisco Networking Academy to strengthen networking skills (working toward CCNA)."
-      ]
-    }
-  ],
+certifications: [
+  {
+    name: "CompTIA Security+ (SY0-701)",
+    issuer: "CompTIA",
+    date: "June 2025",
+    description: "Validates core cybersecurity skills, including risk management, threat analysis, network/system security, and incident response."
+  },
+  {
+    name: "Lean Six Sigma Yellow Belt",
+    issuer: "Texas A&M University",
+    date: "December 2024",
+    description: "Earned Yellow Belt certification through coursework in Lean Six Sigma and Statistics, demonstrating process improvement and analytical problem-solving skills."
+  }
+],
 
   education: [
     {
       school: "Texas A&M University — College Station, TX",
       degree: "B.S. in Electronic Systems Engineering Technology (Minor: Cybersecurity)",
-      dateRange: "Expected Spring 2026",
+      dateRange: "Graduation date: Spring 2026",
       achievements: [
         "GPA: 3.16",
-        "Lean Six Sigma Yellow Belt (Dec 2024)"
       ]
     }
   ]
