@@ -1,92 +1,87 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Jorge Ladron de Guevara",
+  title: "Cybersecurity Student | Texas A&M University",
+  description:
+    "Security+ certified student focused on SOC operations, phishing analysis, and ICS/OT security. Seeking a cybersecurity internship to build hands-on experience and help strengthen defenses.",
+
   accentColor: "#1d4ed8",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "jladron7274@tamu.edu",
+    linkedin: "https://www.linkedin.com/in/jorgeldg7274/",
+    twitter: "",
+    github: "https://github.com/yourGitHubUsername"
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Motivated and adaptable student pursuing a B.S. in Electronic Systems Engineering Technology with a minor in Cybersecurity at Texas A&M. CompTIA Security+ certified with hands-on experience in SOC automation, phishing analysis, and ICS/OT research. Passionate about network defense, incident response, and building secure systems. Currently seeking an internship to apply classroom learning to real-world environments.",
+
+  skills: [
+    // Programming
+    "Python", "C", "Assembly",
+    // Security & Platforms
+    "Linux", "Wazuh", "Splunk", "TheHive", "Cortex", "Wireshark",
+    // Domains
+    "Network Security", "Incident Response", "Phishing Investigation", "ICS/OT Security",
+    // Other
+    "Bilingual: Spanish"
+  ],
+
+  // Show your most relevant security work as "projects"
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "SOC Automation Lab",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Deployed a simulated SOC with Wazuh SIEM, TheHive, and Cortex. Automated alert ingestion, enrichment, and case creation to reduce manual triage time and streamline incident response.",
+      link: "", // add a repo/readme link later if you want
+      skills: ["Wazuh", "TheHive", "Cortex", "Ubuntu", "Automation"]
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "ICS/OT Cybersecurity Research",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Built an IoT-enabled Click PLC testbed and simulated DoS attacks with a Raspberry Pi running Linux to assess network resilience and develop defensive methods for industrial environments.",
+      link: "",
+      skills: ["Click PLC", "Raspberry Pi", "Linux", "Wireshark"]
     },
     {
-      name: "ExtensionKit",
+      name: "Phishing Email Analysis",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+        "Investigated phishing emails (LetsDefend) by analyzing headers and bodies, extracting malicious URLs, and identifying IOCs with forensic tools to improve detection accuracy.",
+      link: "",
+      skills: ["Email Header Analysis", "VirusTotal", "Threat Intel"]
+    }
   ],
+
+  // Use this section to highlight certifications or leadership instead of software jobs
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Certifications",
+      title: "CompTIA Security+ (SY0-701)",
+      dateRange: "June 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
+        "Validated skills in risk management, threat analysis, network/system security, and incident response."
+      ]
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Professional Organizations",
+      title: "TAMU Cybersecurity Club — Active Member",
+      dateRange: "Jan 2025 – Present",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+        "Participating in Cisco Networking Academy to strengthen networking skills (working toward CCNA)."
+      ]
+    }
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Texas A&M University — College Station, TX",
+      degree: "B.S. in Electronic Systems Engineering Technology (Minor: Cybersecurity)",
+      dateRange: "Expected Spring 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
-  ],
+        "GPA: 3.16",
+        "Lean Six Sigma Yellow Belt (Dec 2024)"
+      ]
+    }
+  ]
 };
+
