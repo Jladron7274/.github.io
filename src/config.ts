@@ -20,7 +20,7 @@ export const siteConfig = {
     // Programming
     "Python", "C", "Assembly",
     // Security & Platforms
-    "Linux", "Wazuh", "Splunk", "TheHive", "Cortex", "Wireshark",
+    "Linux", "Wazuh", "Splunk", "Network Fundamentals", "Wireshark",
     // Domains
     "Network Security", "Incident Response", "Phishing Investigation", "ICS/OT Security",
     // Other
